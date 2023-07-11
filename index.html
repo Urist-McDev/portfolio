@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Benjamin Berry's Portfoilo</title>
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+    </head>
+
+    <body class="Background">
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Coding_Knight">
+                <source src="./videos/header_video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video overlay text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Benjamin Berry's Portfoilo</h1>
+            <strong>
+                <p class="center">
+                    <q>I think that in life, as in game design, you have to find the fun.<br>
+                        There is joy out there waiting to be discovered, but it might not be<br>
+                        where you expected. You can't decide what something's going to be before<br>
+                        you embark on it, and you shouldn't stick with a bad idea just because you're<br>
+                        fond of it. Take action as quickly and repeatedly as possible,<br>
+                        take advantage of what you already know, and take liberties with<br>
+                        tradition. But most importantly, take the time to appreciate the <br>
+                        possibilites, and make sure all of your decisions are interesting ones.
+                    </q>
+                    <br> -Sid Meier
+                    <br>
+                    <br> My name is Benajmin Berry. Welcome to my portfolio website. On it, I'll tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by, enjoy and have a good one!
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left-->
+            <div class="Column_2">
+                <img src="./images/coding.png" alt="Lines of code">
+            </div>
+            <!--Right-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a student of software development, with a hope of joining the video game industry, which has always been a passion of mine.
+                    <br>
+                    <br>I am a student of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s game development bootcamp.
+                    By the end of the course I will be trained in HTML, CSS, JavaScript, SQL, C#, C++, and more.
+                    <br>
+                    <br>If you have a postion you would like to tell me about for when I finish my bootcamp, please <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub Section-->
+        <div class="Row" id="GitHub">
+            <!--Left Column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view past and present projects on my GitHub profile here:
+                    <p class="center"><a href="https://github.com/Urist-McDev" target="_blank">Urist-McDev GitHub</a></p>
+                </p>
+            </div>
+            <!--Right Column-->
+            <div class="Column_2">
+                <a href="https://github.com/Urist-McDev" target="_blank"><img src="./images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact Section-->
+        <div class="Row" id="Contact">
+            <!--Left Column-->
+            <div class="Column_2 Column_tall">
+                <img src="./images/email.png" alt="Email image">
+            </div>
+            <!--Contact Form & right Column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/xleyeord" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please type your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer Section-->
+        <footer>
+            <p>
+                <p class="center">Orginial template for this site from <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy.</a></p>
+            </p>
+        </footer>
+    </body>
+</html>
